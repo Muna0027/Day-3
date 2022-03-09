@@ -107,6 +107,15 @@ const hours = t.getHours()
 const minutes = t.getMinutes()
 console.log(`${date}-${month}-${year} ${hours}:${minutes}`)
 
+// Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10) I'm not ure this one is properly answered.
+let x1 = 6, y1 = 2;
+let x2 = 10, y2 = 2;
+let slope = (x1, y1, x2, y2);
+console.log("Slope is " + (x1, y1, x2, y2))
+                 
+    
+                  
+
 
 
 
