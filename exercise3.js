@@ -8,4 +8,6 @@ const date = start.getDate()
 const hours = start.getHours() 
 const minutes = start.getMinutes()
 console.log(`${year}-${month}-${date} ${hours}:${minutes}`)
-//Isn't this contingent on the actual time my computer has? Am I supposed to manually input the time (hours and minutes) so I can prove that I can make (07hours and 05minutes) work? If that is not the case then the answer is complete.
+//Isn't this contingent on the actual time my computer has? Am I supposed to manually input the time (hours and minutes) so I can prove that I can make (07hours and 05minutes) work? If that is not the case then the answer is complete. 
+
+//You are supposed to come up with a way to make the time start with a 0 for both minutes and hours. I tested the theory by changing my computers set time to a different time zone. 
