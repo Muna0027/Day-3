@@ -113,11 +113,60 @@ let x2 = 10, y2 = 2;
 let slope = (x1, y1, x2, y2);
 console.log("Slope is " + (x1, y1, x2, y2))
 
+//Compare your first name length and your family name length and you should get this output.
 
+let firstName = 'Muna';
+let lastName = 'Adan';
+console.log(firstName, lastName, firstName.length , lastName.length)
 
-                 
-    
+/* Your first name, Asabeneh is longer than your family name, Yetayeh
+Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+
+let myAge = 250
+let yourAge = 25
+I am 225 years older than you.*/
+
+let firstName = 'Asabeneh';
+let lastName = 'Yetayeh';
+let myAge = 250;
+let yourAge = 25;
+
+console.log(firstName, lastName, myAge - yourAge)
+
+//Enter number of years you live: 100
+//You lived 3153600000 seconds.
+ 
+let age = 100;
+let yearInSeconds = 31536000;
+console.log(age*yearInSeconds)
                   
+/* Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+
+Enter birth year: 1997
+You are 25. You are old enough to drive
+
+Enter birth year: 2007
+You are 15. You will be allowed to drive after 3 years.
+Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years*/
+
+    //NEEDS WORK
+
+const question = window.prompt('What year were you born?');
+const currentYear = 2022
+const minBirthYear = 2007
+if (yearOfBirth) {
+    minBirthYear < 2007
+    console.log(`You are ${currentYear - minBirthYear} You are 15. You will be allowed to drive after 3 years.`)
+
+} else {
+
+} console.log(`You are ${currentYear - minBirthYear} You are old enough to drive.`)
+// if you were born before 2004 you are too young to drive
+
+
+console.log(`You are ${currentYear - minBirthYear} You are old enough to drive.`)
+
+
 
 
 
